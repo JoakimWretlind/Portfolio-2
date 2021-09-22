@@ -22,7 +22,7 @@ const Home = () => {
     const contactRef = useRef(null);
 
     return (
-        <Section id="home" style={{ background: "#999" }}>
+        <Section id="home">
             <ImageContainer ref={imageRef}>
                 <HomeImage src={selfie} alt="image of Joakim" />
             </ImageContainer>

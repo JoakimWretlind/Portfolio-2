@@ -1,5 +1,7 @@
 import { createGlobalStyle } from 'styled-components';
 import CabinetL from './assets/fonts/CabinetGrotesk-Light.woff2';
+import CabinetB from './assets/fonts/CabinetGrotesk-Bold.woff2';
+import CabinetXLight from './assets/fonts/CabinetGrotesk-Extralight.woff2';
 import Nomark from './assets/fonts/Nomark.otf';
 import Stretch from './assets/fonts/StretchPro.otf';
 
@@ -7,6 +9,14 @@ export const GlobalStyle = createGlobalStyle`
 @font-face {
     font-family: 'cabinetL';
     src: url(${CabinetL});
+}
+@font-face {
+    font-family: 'cabinetBold';
+    src: url(${CabinetB});
+}
+@font-face {
+    font-family: 'cabinetXLight';
+    src: url(${CabinetXLight});
 }
 @font-face {
     font-family: 'nomark';
@@ -34,6 +44,7 @@ export const GlobalStyle = createGlobalStyle`
       color: #f1f1f1;
       box-sizing: border-box;
       font-family: "cabinetL";
+      background: linear-gradient(-5deg, hsl(228, 100%, 4%), hsl(228, 100%, 1%));
     }
     
     a {
