@@ -1,6 +1,6 @@
 import React from 'react'
-import { Section, InnerContainer } from '../sharedStyling'
-import Header from '../Header'
+import { Section, InnerContainer } from '../../components/sharedStyling'
+import Header from '../../components/Header'
 
 
 const Contact = () => {
