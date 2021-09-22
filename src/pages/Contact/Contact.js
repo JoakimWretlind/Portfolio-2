@@ -2,7 +2,6 @@ import React from 'react'
 import { Section, InnerContainer } from '../../components/sharedStyling'
 import Header from '../../components/Header'
 
-
 const Contact = () => {
     return (
         <Section id="contact" style={{ background: "#666" }}>
