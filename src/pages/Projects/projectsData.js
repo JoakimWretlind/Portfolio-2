@@ -1,10 +1,10 @@
-import pf1 from '../../assets/images/pf-1.jpg';
-import furniture from '../../assets/images/furniture.jpg';
-import snowboards from '../../assets/images/sb.jpg';
-import calculator from '../../assets/images/calculator.jpg';
-import quiz from '../../assets/images/quiz.jpg';
-import algolab from '../../assets/images/algolab.jpg';
-import nitroMenu from '../../assets/images/nitroMenu.png';
+import pf1 from '../../assets/images/pf-1.webp';
+import furniture from '../../assets/images/furniture.webp';
+import snowboards from '../../assets/images/sb.webp';
+import calculator from '../../assets/images/calculator.webp';
+import quiz from '../../assets/images/quiz.webp';
+import algolab from '../../assets/images/algolab.webp';
+import nitroMenu from '../../assets/images/nitroMenu.webp';
 
 export const projectsData = [
     {
