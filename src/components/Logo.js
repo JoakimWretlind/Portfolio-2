@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 const Logos = styled.a`
     position: fixed;
-    top: 7rem;
+    top: 2rem;
     left: 50%;
     transform: translateX(-50%);
     white-space: nowrap;

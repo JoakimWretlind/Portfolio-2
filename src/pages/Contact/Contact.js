@@ -2,6 +2,7 @@ import React from 'react'
 import { Section, InnerContainer } from '../../components/sharedStyling'
 import Header from '../../components/Header'
 import {
+    Form,
     ContentWrapper,
     LeftSection,
     RightSection,
@@ -12,12 +13,10 @@ import {
 
 const Contact = () => {
     return (
-        <Section id="contact" style={{ background: "#666" }}>
+        <Section id="contact">
             <InnerContainer>
                 <Header title="contact" />
-
-
-                <form name="contact" method="post">
+                <Form name="contact" method="post">
                     <ContentWrapper>
                         <LeftSection>
                             <Input type="hidden" name="form-name" value="contact" />
@@ -40,8 +39,7 @@ const Contact = () => {
                             </p>
                         </RightSection>
                     </ContentWrapper>
-                </form>
-
+                </Form >
             </InnerContainer>
         </Section>
     )

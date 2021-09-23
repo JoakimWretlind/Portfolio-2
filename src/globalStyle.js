@@ -9,22 +9,27 @@ export const GlobalStyle = createGlobalStyle`
 @font-face {
     font-family: 'cabinetL';
     src: url(${CabinetL});
+    font-display: swap;
 }
 @font-face {
     font-family: 'cabinetBold';
     src: url(${CabinetB});
+    font-display: swap;
 }
 @font-face {
     font-family: 'cabinetXLight';
     src: url(${CabinetXLight});
+    font-display: swap;
 }
 @font-face {
     font-family: 'nomark';
     src: url(${Nomark});
+    font-display: swap;
 }
 @font-face {
     font-family: 'stretch';
     src: url(${Stretch});
+    font-display: swap;
 }
 
     *,
