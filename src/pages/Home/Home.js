@@ -19,7 +19,6 @@ const Home = () => {
     const headTwo = useRef(null);
     const headThree = useRef(null);
     const headFour = useRef(null);
-    const contactRef = useRef(null);
 
     return (
         <Section id="home">
@@ -45,7 +44,7 @@ const Home = () => {
                 <HomeStatement ref={statementRef}>
                     welcome
                 </HomeStatement>
-                <ContactBtn ref={contactRef}>
+                <ContactBtn>
                     contact
                 </ContactBtn>
             </ContentContainer>

@@ -4,7 +4,10 @@ import Header from '../../components/Header'
 import {
     ContentWrapper,
     LeftSection,
-    RightSection
+    RightSection,
+    Input,
+    TextArea,
+    Button
 } from './contact.style';
 
 const Contact = () => {
@@ -17,23 +20,23 @@ const Contact = () => {
                 <form name="contact" method="post">
                     <ContentWrapper>
                         <LeftSection>
-                            <input type="hidden" name="form-name" value="contact" />
+                            <Input type="hidden" name="form-name" value="contact" />
                             <p>
                                 <label htmlFor="name">Name</label> <br />
-                                <input type="text" id="name" name="name" required />
+                                <Input type="text" id="name" name="name" required />
                             </p>
                             <p>
                                 <label htmlFor="email">Email</label> <br />
-                                <input type="email" id="email" name="email" required />
+                                <Input type="email" id="email" name="email" required />
                             </p>
                         </LeftSection>
                         <RightSection>
                             <p>
                                 <label htmlFor="message">Message</label> <br />
-                                <textarea id="message" name="message" required></textarea>
+                                <TextArea id="message" name="message" required></TextArea>
                             </p>
                             <p>
-                                <input type="submit" value="Submit message" />
+                                <Button type="submit" value="Submit message" />
                             </p>
                         </RightSection>
                     </ContentWrapper>
