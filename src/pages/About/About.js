@@ -1,5 +1,6 @@
 import { useRef } from 'react';
 import { gsap } from 'gsap';
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { Section, InnerContainer } from "../../components/sharedStyling";
 import Header from '../../components/Header';
 import {
@@ -18,6 +19,8 @@ import {
 import { FaQuoteLeft, FaQuoteRight } from "react-icons/fa";
 import { aboutData } from "./aboutData";
 
+gsap.registerPlugin(ScrollTrigger);
+
 const About = () => {
     const imgRefs = useRef(null);
 
@@ -32,6 +35,12 @@ const About = () => {
         let targets = index.target;
         gsap.to(targets, { y: 0, delay: .75 });
     }
+
+
+    ScrollTrigger.batch(".card", {
+        onEnter: batch => gsap.fromTo(batch, { autoAlpha: 0 }, { autoAlpha: 1, stagger: .2 })
+    })
+
 
     return (
         <Section id="about">
@@ -61,7 +70,7 @@ const About = () => {
                 <ImageContainer>
                     {aboutData.map((item, index) => (
                         <div key={index}>
-                            <ImageHolder key={index}>
+                            <ImageHolder key={index} className="card">
                                 <Image src={item.image} style={{ position: "absolute", zIndex: -1 }} ref={imgRefs} alt={item.title} />
                                 <Image src={item.image2} onMouseOver={(index) => { onHover(index) }} onMouseLeave={(index) => { noHover(index) }} alt={item.title} />
                                 <ImageText>{item.title}</ImageText>

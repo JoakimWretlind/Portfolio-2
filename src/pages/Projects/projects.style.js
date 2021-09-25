@@ -30,7 +30,7 @@ export const ListContainer = styled.ul`
 `;
 
 export const ItemContainer = styled.div`
-    width: 100%;    
+    width: 100%;        
     @media screen and (min-width: 767px){
         width: 90%;
     }
@@ -110,17 +110,23 @@ export const ImageContainer = styled.div`
 
 /** INFO-SECTION **/
 export const InfoContainer = styled.div`
-    position: absolute;   
-    height: max-content;
-    background: rgba(255,255,255,1);
-    color: #000;
+    position: absolute;  
+    top: 80%;
+    right: 0;
     width: 90%;
+    height: max-content;
+    background: #f1f1f1;
+    color: #000;    
     z-index: 2;
     padding: 1rem;
     border-radius: .3rem;
+    border-radius: .3rem;
     @media screen and (min-width: 767px){
-        right: -7rem;
         width: 30rem;
+        right: -3rem;        
+        top: 45%;
+    }
+    @media screen and (min-width: 1000px){        
         top: 59%;
     }
 `;
@@ -134,11 +140,18 @@ export const InfoP = styled.p`
 export const GitLink = styled.a`
     color: #000;
     font-size: 2rem;
+    transition: .25s ease-out;
+    &:hover{
+        color: #9ef9ff;
+    }
 `;
 
 export const GitExternal = styled.a`
     color: #000;
     font-size: 1.8rem;
     margin-left: 1.2rem;
+    &:hover{
+        color: #9ef9ff;
+    }
 `;
 

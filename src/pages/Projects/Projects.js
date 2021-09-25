@@ -44,7 +44,7 @@ const Projects = () => {
                             {projectsData.map((item, index) => {
                                 return (
                                     <div key={index}>
-                                        <Box onMouseEnter={() => onHover(item)}>
+                                        <Box onMouseEnter={() => onHover(item)} >
                                             <TextA href={item.path} target="_blank" rel="noopener">{item.title}</TextA>
                                         </Box>
                                     </div>
