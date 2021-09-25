@@ -1,4 +1,5 @@
 import { useState, useRef } from 'react';
+import { FaGithubSquare, FaExternalLinkAlt } from "react-icons/fa";
 import { Section, InnerContainer } from "../../components/sharedStyling";
 import Header from '../../components/Header';
 import {
@@ -10,7 +11,11 @@ import {
     ImageWrapper,
     ImageContainer,
     RightSide,
-    Img
+    Img,
+    InfoContainer,
+    InfoP,
+    GitLink,
+    GitExternal
 } from './projects.style';
 import { projectsData } from "./projectsData";
 import gsap from 'gsap';
@@ -49,11 +54,26 @@ const Projects = () => {
                     </ListContainer>
                     <RightSide>
                         <ImageWrapper>
-                            <Img src={zero} className="default" />
+                            <Img src={zero} className="default" alt="default img" />
                             <ImageContainer ref={el => (imageWrapper = el)}>
                                 <Img src={pictures.image} alt={pictures.title} />
                             </ImageContainer>
                         </ImageWrapper>
+                        <InfoContainer >
+                            <InfoP className="default">
+                                Hover The List To See More Images
+                            </InfoP>
+                            <InfoP>
+                                {pictures.desc}
+                            </InfoP>
+                            <InfoP>
+                                {pictures.tech}
+                            </InfoP>
+                            <InfoP>
+                                <GitLink href={pictures.gitLink} target="_blank" rel="noopener"><FaGithubSquare /></GitLink>
+                                <GitExternal href={pictures.path} target="_blank" rel="noopener"><FaExternalLinkAlt /></GitExternal>
+                            </InfoP>
+                        </InfoContainer>
                     </RightSide>
                 </ContentContainer>
             </InnerContainer>

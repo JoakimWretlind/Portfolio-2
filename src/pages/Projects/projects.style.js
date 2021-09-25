@@ -61,6 +61,7 @@ export const TextA = styled.a`
 `;
 
 export const RightSide = styled.div`
+    position: relative;
     margin: 5rem 0 auto 0;    
     max-height: 25vh;
     width: 100%;
@@ -74,7 +75,6 @@ export const RightSide = styled.div`
         min-width: 28rem;
     }
 `;
-
 
 /** IMAGE-SECTION **/
 export const ImageWrapper = styled.div`
@@ -107,3 +107,38 @@ export const ImageContainer = styled.div`
     align-items: center;
     overflow: hidden;   
 `;
+
+/** INFO-SECTION **/
+export const InfoContainer = styled.div`
+    position: absolute;   
+    height: max-content;
+    background: rgba(255,255,255,1);
+    color: #000;
+    width: 90%;
+    z-index: 2;
+    padding: 1rem;
+    border-radius: .3rem;
+    @media screen and (min-width: 767px){
+        right: -7rem;
+        width: 30rem;
+        top: 59%;
+    }
+`;
+
+export const InfoP = styled.p`
+    font-size: 1.4rem;
+    letter-spacing: .1rem;
+    margin-bottom: .2rem;
+`;
+
+export const GitLink = styled.a`
+    color: #000;
+    font-size: 2rem;
+`;
+
+export const GitExternal = styled.a`
+    color: #000;
+    font-size: 1.8rem;
+    margin-left: 1.2rem;
+`;
+

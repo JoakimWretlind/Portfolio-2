@@ -14,6 +14,7 @@ export const projectsData = [
         path: "https://joakimwretlind.netlify.app/",
         desc: "The title says it all. This was my first portfolio.",
         tech: "HTML, SCSS, JavaScript",
+        gitLink: "",
         image: pf1
     },
     {
@@ -21,8 +22,9 @@ export const projectsData = [
         title: "acme furniture",
         category: "big",
         path: "https://acmefurniture.netlify.app/",
-        desc: "A shopping app with some 3D features.",
+        desc: "A shopping app with some 3D features. You can put in the cart or in the wish-list, search for a category. Stuff saved in localStorage.",
         tech: "HTML, SCSS, JavaScript",
+        gitLink: "",
         image: furniture
     },
     {
@@ -32,6 +34,7 @@ export const projectsData = [
         path: "https://snowboards-2021.netlify.app/",
         desc: "A list of items with some functions. For this I created an external API to hold the information.",
         tech: "React, Styled-Components",
+        gitLink: "https://github.com/JoakimWretlind/snowboards-20-21",
         image: snowboards
     },
     {
@@ -41,6 +44,7 @@ export const projectsData = [
         path: "https://theme-calculator.netlify.app/",
         desc: "This one lets you select a theme for your calculator using localStorage.",
         tech: "React, Styled-Components",
+        gitLink: "https://github.com/JoakimWretlind/Theme-Calculator",
         image: calculator
     },
     {
@@ -50,6 +54,7 @@ export const projectsData = [
         path: "https://jw-codequiz.netlify.app/",
         desc: "A multiselection quiz-app to learn about programming.",
         tech: "React, Styled-Components",
+        gitLink: "https://github.com/JoakimWretlind/quiz-2",
         image: quiz
     },
     {
@@ -59,6 +64,7 @@ export const projectsData = [
         path: "https://algolab.netlify.app/",
         desc: "A bigger app to help people learn about algorithms and datastructures.",
         tech: "React, Styled-Components",
+        gitLink: "https://github.com/JoakimWretlind/algolab",
         image: algolab
     },
     {
@@ -68,6 +74,7 @@ export const projectsData = [
         path: "https://nitro-menu.netlify.app/",
         desc: "Watch all items or pick a category and watch only the items in that category.",
         tech: "React, Styled-Components",
+        gitLink: "https://github.com/JoakimWretlind/nitroMenu",
         image: nitroMenu
     },
 ]
