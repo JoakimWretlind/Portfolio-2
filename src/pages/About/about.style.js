@@ -104,7 +104,7 @@ export const ImageContainer = styled.div`
 `;
 
 export const ImageHolder = styled.div` 
-    height: 11rem;
+    height: 11rem;    
     width: min-content;
     position: relative;
     overflow: hidden;
@@ -120,8 +120,8 @@ export const ImageHolder = styled.div`
 
 export const Image = styled.img`
     height: 7rem;
-    margin-bottom: .7rem;
     width: auto;
+    margin-bottom: .7rem;    
     @media screen and (min-width: 359px){
         height: 8rem;
     } 

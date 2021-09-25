@@ -17,7 +17,7 @@ import jestBW from '../../assets/images/jestBW.webp';
 import nodeC from '../../assets/images/nodeC.webp';
 import nodeBW from '../../assets/images/nodeBW.webp';
 import expressC from '../../assets/images/expressC.webp';
-import expressBW from '../../assets/images/express.webp';
+import expressBW from '../../assets/images/expressBW.webp';
 import postmanC from '../../assets/images/postmanC.webp';
 import postmanBW from '../../assets/images/postman.webp';
 import mongoC from '../../assets/images/mongoDbC.webp';

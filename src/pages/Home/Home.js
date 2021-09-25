@@ -11,7 +11,7 @@ import {
     HomeImage
 } from './home.style';
 import ContactBtn from '../../components/ContactButton';
-import selfie from '../../assets/images/selfie.webp';
+import selfie from '../../assets/images/self.webp';
 
 gsap.registerPlugin(TextPlugin);
 

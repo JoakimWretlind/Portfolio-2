@@ -142,7 +142,7 @@ export const ImageContainer = styled.div`
 
 export const HomeImage = styled.img`    
     width: 100%;
-    opacity: .13;
+    opacity: .15;
     margin-top: 3vh;
     height: 100%;
     object-fit: contain;
