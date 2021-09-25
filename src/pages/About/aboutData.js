@@ -16,18 +16,16 @@ import jestC from '../../assets/images/jestC.webp';
 import jestBW from '../../assets/images/jestBW.webp';
 import nodeC from '../../assets/images/nodeC.webp';
 import nodeBW from '../../assets/images/nodeBW.webp';
-// import expressC from '../../assets/images/expressC.webp';
-// import expressBW from '../../assets/images/expressBW.webp';
-import expressC from '../../assets/images/express.png';
-import expressBW from '../../assets/images/expressBW.png';
-import postmanC from '../../assets/images/postmanC.png';
-import postmanBW from '../../assets/images/postman.png';
-import mongoC from '../../assets/images/mongoDbC.png';
-import mongoBW from '../../assets/images/mongoDb.png';
-import gsapC from '../../assets/images/gsapC.png';
+import expressC from '../../assets/images/expressC.webp';
+import expressBW from '../../assets/images/express.webp';
+import postmanC from '../../assets/images/postmanC.webp';
+import postmanBW from '../../assets/images/postman.webp';
+import mongoC from '../../assets/images/mongoDbC.webp';
+import mongoBW from '../../assets/images/mongoDb.webp';
+import gsapC from '../../assets/images/gsapC.webp';
 import gsapBW from '../../assets/images/gsapBW.webp';
-import gitC from '../../assets/images/gitC.png';
-import gitBW from '../../assets/images/gitBW.png';
+import gitC from '../../assets/images/gitC.webp';
+import gitBW from '../../assets/images/gitBW.webp';
 
 
 export const aboutData = [

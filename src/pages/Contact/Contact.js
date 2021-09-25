@@ -44,9 +44,9 @@ const Contact = () => {
                     </ContentWrapper>
                 </Form >
                 <SocialContainer>
-                    <SocialHolder><FaGithubSquare /></SocialHolder>
-                    <SocialHolder><FaCodepen /></SocialHolder>
-                    <SocialHolder><FaLinkedin /></SocialHolder>
+                    <SocialHolder href="https://github.com/JoakimWretlind/Portfolio-2" target="_blank" rel="noopener"><FaGithubSquare /></SocialHolder>
+                    <SocialHolder href="https://codepen.io/joakimwretlind" target="_blank" rel="noopener"><FaCodepen /></SocialHolder>
+                    <SocialHolder href="https://linkedin.com/in/joakim-wretlind-84ab0b121" target="_blank" rel="noopener"><FaLinkedin /></SocialHolder>
                 </SocialContainer>
                 <p>2021</p>
             </InnerContainer>

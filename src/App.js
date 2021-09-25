@@ -1,5 +1,5 @@
 import { GlobalStyle } from './globalStyle'
-import { Home, About, Projects, Contact, Footer, Logo, ToTopBtn, ScrollIndicator, SmoothScrolling } from './components/index';
+import { Home, About, Projects, Contact, Logo, ToTopBtn, ScrollIndicator, SmoothScrolling } from './components/index';
 
 function App() {
   return (

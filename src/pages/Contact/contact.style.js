@@ -76,16 +76,17 @@ export const SocialContainer = styled.div`
     align-items: center;
 `;
 
-export const SocialHolder = styled.div`
+export const SocialHolder = styled.a`
     height: 3rem;
     width: min-content;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 2rem;
+    font-size: 3rem;
     cursor: pointer;
     transition: .25s ease-out;
     margin-bottom: 7rem;
+    color: #f1f1f1;
     &:hover {
         color:#9ef9ff;
     }

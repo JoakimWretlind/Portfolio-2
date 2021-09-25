@@ -63,7 +63,7 @@ const About = () => {
                         <div key={index}>
                             <ImageHolder key={index}>
                                 <Image src={item.image} style={{ position: "absolute", zIndex: -1 }} ref={imgRefs} alt={item.title} />
-                                <Image src={item.image2} onMouseOver={(index) => { onHover(index) }} onMouseLeave={(index) => { noHover(index) }} />
+                                <Image src={item.image2} onMouseOver={(index) => { onHover(index) }} onMouseLeave={(index) => { noHover(index) }} alt={item.title} />
                                 <ImageText>{item.title}</ImageText>
                             </ImageHolder>
                         </div>

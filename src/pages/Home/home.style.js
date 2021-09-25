@@ -172,7 +172,7 @@ export const HomeImage = styled.img`
     }
         
     @media screen and (min-width: 1000px){     
-        margin-top: 6vh;      
+        margin-top: 3vh;      
     }
      
 `;
