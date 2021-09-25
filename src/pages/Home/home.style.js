@@ -13,45 +13,40 @@ export const ContentContainer = styled.div`
 
 export const HomeHeader = styled.h1`
     font-family: 'stretch';
-    white-space: nowrap;
+    font-size: 1.8rem;   
     text-transform: uppercase;
-    margin: 6rem 1rem 0 1rem;
-    font-size: 1.6rem;
     letter-spacing: .1rem;
     text-align: center;
+    width: 100%;
+    white-space: nowrap;
     @media screen and (min-width: 359px){
-        font-size: 2rem;
+        font-size: 2.2rem;
+        letter-spacing: .2rem;
+    }
+    @media screen and (min-width: 399px){
+        font-size: 2.5rem;
         letter-spacing: .3rem;
-        margin: 5rem 1rem 0 1rem;
     }
-    @media screen and (min-width: 400px){
-        margin: 8.5rem 1rem 0 1rem;
-        font-size: 2.4rem;
-    }
-    @media screen and (min-width: 500px){
-        font-size: 3rem;
+    @media screen and (min-width: 539px){
+        font-size: 3.2rem;
+        letter-spacing: .5rem;
     }
     @media screen and (min-width: 767px){
-        font-size: 4.4rem;
-        letter-spacing: .6rem;
-        margin: 6rem 1rem 0 1rem;
+        font-size: 4.6rem;
+        letter-spacing: .7rem;
+        margin-left: 2rem;
     }
     @media screen and (min-width: 1000px){
         font-size: 6rem;
-        letter-spacing: .8rem;
-        margin: 8rem 1rem 0 1rem;
-    }
-    @media screen and (min-width: 1200px){
-        font-size: 7rem;
         letter-spacing: 1rem;
-         margin: -1rem 1rem 0 1rem;
+        margin-left: 2rem;
     }
     &.HeaderOutline{  
         position: absolute;  
         -webkit-text-stroke-width: .01rem;
         -webkit-text-stroke-color: #f1f1f1;
         color: transparent;
-        text-align: center;
+        text-align: center;        
         :nth-child(2){
         top: .5rem;
         opacity: .5;
@@ -142,15 +137,42 @@ export const HomeStatement = styled.h5`
 export const ImageContainer = styled.div`
     position: relative;
     height: 75vh;
+    width: 100%;
 `;
 
-export const HomeImage = styled.img`
+export const HomeImage = styled.img`    
+    width: 100%;
+    opacity: .13;
+    margin-top: 3vh;
     height: 100%;
-        opacity: .13;
-        margin-left: -18vw;
-    @media screen and (min-width: 1000px){        
-        margin-left: -5vw;
+    object-fit: contain;
+
+    @media screen and (min-width: 319px){
+        margin-top: 8vh;
+    }
+
+    @media screen and (min-width: 359px){
+        margin-top: 6vh;
+    }    
+    
+    @media screen and (min-width: 359px) and (min-height: 820px){
         margin-top: 0;
+    }
+
+    @media screen and (width: 375px) and (min-height: 810px){
+        margin-top: 0;
+    }
+
+    @media screen and (min-width: 410px){
+        margin-top: 3vh;
+    }
+
+    @media screen and (min-width: 767px){
+        margin-top: -2vh;
+    }
+        
+    @media screen and (min-width: 1000px){     
+        margin-top: 6vh;      
     }
      
 `;

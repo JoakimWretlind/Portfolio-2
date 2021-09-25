@@ -1,16 +1,19 @@
 import { GlobalStyle } from './globalStyle'
-import { Home, About, Projects, Contact, Footer, Logo } from './components/index';
+import { Home, About, Projects, Contact, Footer, Logo, ToTopBtn, ScrollIndicator, SmoothScrolling } from './components/index';
 
 function App() {
   return (
     <>
       <GlobalStyle />
       <Logo />
-      <Home />
-      <About />
-      <Projects />
-      <Contact />
-      <Footer />
+      <ScrollIndicator />
+      <ToTopBtn />
+      <SmoothScrolling >
+        <Home />
+        <About />
+        <Projects />
+        <Contact />
+      </SmoothScrolling>
     </>
   );
 }

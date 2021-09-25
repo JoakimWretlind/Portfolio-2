@@ -16,11 +16,20 @@ export const InnerContainer = styled.div`
     height: 100%;
     width: 100%;
     max-width: 116rem;
-    padding: 7rem 3rem;
+    padding: 9rem 3rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    &.aboutContainer {
+        padding: 7rem 3rem;
+    }
+    &#footer{
+        border-top: .1rem solid #f1f1f1;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
 `;
 
 export const Button = styled.button`

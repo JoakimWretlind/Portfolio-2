@@ -86,30 +86,36 @@ export const Tech = styled.h4`
     font-family: 'nomark';
     @media screen and (min-width: 767px){
         margin-left: 10rem;
+        margin-bottom: 2rem;
     }
 `;
 
 export const ImageContainer = styled.div`    
     width: 100%;
-    margin: 0 auto 2rem;
+    margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(11rem, 1fr));
-    align-items: center;    
+    align-items: center;   
     @media screen and (min-width: 359px){
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr));
-    align-items: center;
+        align-items: center;
     }
 `;
 
 export const ImageHolder = styled.div` 
+    height: 11rem;
+    width: min-content;
     position: relative;
     overflow: hidden;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
-    margin: 1rem;
+    margin: 0 1rem;
+    @media screen and (min-width: 359px){
+        height: 13rem;
+    }
 `;
 
 export const Image = styled.img`
@@ -117,7 +123,7 @@ export const Image = styled.img`
     margin-bottom: .7rem;
     width: auto;
     @media screen and (min-width: 359px){
-        height: 9rem;
+        height: 8rem;
     } 
 `;
 

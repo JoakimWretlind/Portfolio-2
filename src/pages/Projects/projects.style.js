@@ -19,7 +19,7 @@ export const ListContainer = styled.ul`
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding-right: 7rem;
+    padding-right: 7rem;   
     @media screen and (min-width: 359px){
         min-width: 28rem;
         padding-right: 0rem;
@@ -30,7 +30,7 @@ export const ListContainer = styled.ul`
 `;
 
 export const ItemContainer = styled.div`
-    width: 100%;
+    width: 100%;    
     @media screen and (min-width: 767px){
         width: 90%;
     }
@@ -72,9 +72,6 @@ export const RightSide = styled.div`
         width: 40%;
         height: 100%;
         min-width: 28rem;
-        display: flex;
-        justify-content: center;
-        align-items: center;
     }
 `;
 

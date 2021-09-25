@@ -1,4 +1,4 @@
-import React from 'react'
+import { FaLinkedin, FaGithubSquare, FaCodepen } from "react-icons/fa";
 import { Section, InnerContainer } from '../../components/sharedStyling'
 import Header from '../../components/Header'
 import {
@@ -8,7 +8,10 @@ import {
     RightSection,
     Input,
     TextArea,
-    Button
+    Button,
+    ContactP,
+    SocialContainer,
+    SocialHolder
 } from './contact.style';
 
 const Contact = () => {
@@ -20,26 +23,32 @@ const Contact = () => {
                     <ContentWrapper>
                         <LeftSection>
                             <Input type="hidden" name="form-name" value="contact" />
-                            <p>
+                            <ContactP>
                                 <label htmlFor="name">Name</label> <br />
                                 <Input type="text" id="name" name="name" required />
-                            </p>
-                            <p>
+                            </ContactP>
+                            <ContactP>
                                 <label htmlFor="email">Email</label> <br />
                                 <Input type="email" id="email" name="email" required />
-                            </p>
+                            </ContactP>
                         </LeftSection>
                         <RightSection>
-                            <p>
+                            <ContactP>
                                 <label htmlFor="message">Message</label> <br />
                                 <TextArea id="message" name="message" required></TextArea>
-                            </p>
-                            <p>
+                            </ContactP>
+                            <ContactP>
                                 <Button type="submit" value="Submit message" />
-                            </p>
+                            </ContactP>
                         </RightSection>
                     </ContentWrapper>
                 </Form >
+                <SocialContainer>
+                    <SocialHolder><FaGithubSquare /></SocialHolder>
+                    <SocialHolder><FaCodepen /></SocialHolder>
+                    <SocialHolder><FaLinkedin /></SocialHolder>
+                </SocialContainer>
+                <p>2021</p>
             </InnerContainer>
         </Section>
     )
