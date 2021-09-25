@@ -19,7 +19,7 @@ import nodeBW from '../../assets/images/nodeBW.webp';
 import expressC from '../../assets/images/expressC.webp';
 import expressBW from '../../assets/images/expressBW.webp';
 import postmanC from '../../assets/images/postmanC.webp';
-import postmanBW from '../../assets/images/postman.webp';
+import postmanBW from '../../assets/images/postmanBW.webp';
 import mongoC from '../../assets/images/mongoDbC.webp';
 import mongoBW from '../../assets/images/mongoDb.webp';
 import gsapC from '../../assets/images/gsapC.webp';
