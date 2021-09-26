@@ -16,7 +16,6 @@ import ContactBtn from '../../components/ContactButton';
 gsap.registerPlugin(TextPlugin);
 
 const Home = () => {
-    const imageRef = useRef(null);
     const workRef = useRef(null);
     const statementRef = useRef(null);
     const headOne = useRef(null);
@@ -33,16 +32,6 @@ const Home = () => {
         tl.fromTo(headTwo.current, 1.7, { opacity: 0 }, { opacity: .5 }, "-=.9");
         tl.fromTo(headThree.current, 1.7, { opacity: 0 }, { opacity: .3 }, "-=2.4");
         tl.fromTo(headFour.current, 1.7, { opacity: 0 }, { opacity: .1 }, "-=3");
-        tl.fromTo(imageRef.current, 2.5, { opacity: 0 }, { opacity: 1 }, "-=2");
-        /*
-        tl.fromTo(contactRef.current, 2, { rotationX: -90 }, {
-            perspective: 800,
-            transformStyle: "preserve-3d",
-            backfaceVisibility: "hidden",
-            rotationX: 0,
-            ease: "power2.out"
-        }, "-=2.2");
-        */
         tl.fromTo(workRef.current, 2, { rotationX: -90 }, {
             perspective: 800,
             transformStyle: "preserve-3d",
@@ -55,11 +44,6 @@ const Home = () => {
 
     return (
         <Section id="home">
-            {/** 
-            <ImageContainer ref={imageRef}>
-                <HomeImage src={selfie} alt="image of Joakim" />
-            </ImageContainer>
-            */}
             <ContentContainer>
                 <HomeHeader className="headOne" ref={headOne}>
                     joakim wretlind
