@@ -43,7 +43,7 @@ const About = () => {
                 <Header title="about" />
                 <TextContainer>
                     <TextP>
-                        My name is Joakim, and really I enjoy coding and web development. I started with Java 2015 and went all-in with HTML, CSS, and JavaScript 2018.
+                        My name is Joakim! I live in Sweden, outside Stockholm, and really I enjoy coding and web development. I started with Java 2015 and went all-in with HTML, CSS, and JavaScript 2018.
                         I like to make nice designs with fast, clean, and reusable code.
                     </TextP>
                     <QuoteContainer>
