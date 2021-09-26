@@ -19,6 +19,7 @@ export const TextP = styled.p`
     line-height: 1.4;
     letter-spacing: .1rem;    
     margin-bottom: 3rem;
+    text-align: center;
 `;
 
 export const QuoteContainer = styled.div`

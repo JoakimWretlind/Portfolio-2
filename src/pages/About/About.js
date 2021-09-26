@@ -43,7 +43,8 @@ const About = () => {
                 <Header title="about" />
                 <TextContainer>
                     <TextP>
-                        My name is Joakim Wretlind, and I’m a devoted father and a front-end developer. In my life, I’ve done a whole lot of things, but since 2018 I’ve been hooked on coding and making things look good on the screen. I really enjoy the challenge of putting the visuals I come up with, to clean, reusable and fast code.
+                        My name is Joakim, and really I enjoy coding and web development. I started with Java 2015 and went all-in with HTML, CSS, and JavaScript 2018.
+                        I like to make nice designs with fast, clean, and reusable code.
                     </TextP>
                     <QuoteContainer>
                         <IconHolder id="start">
@@ -57,8 +58,8 @@ const About = () => {
                         </IconHolder>
                     </QuoteContainer>
                     <TextP>
-                        I’ve always been the creative kind, and even if I like coding and designing, I also like building on my motorcycle and in my younger years, I also worked a lot as a DJ, where I really liked to make my own remixes and versions of songs.
-                        Currently, I’m baking with React, Styled-Components, Typescript, and Jest as the bottom and the glace. Then I sprinkle some animations on top of it with Gsap, Framer motion, and SVG’s.
+                        I've always been the creative kind, and in my head, new ideas for designs and projects pop up constantly.
+                        Currently, I build with React, Style-Components and TypeScript. I run unit- and integrationtests with Jest and animate with Gsap and FramerMotion.
                     </TextP>
                 </TextContainer>
                 <Tech >Current Tech-Stack</Tech>

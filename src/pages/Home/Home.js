@@ -11,7 +11,7 @@ import {
     HomeImage
 } from './home.style';
 import ContactBtn from '../../components/ContactButton';
-import selfie from '../../assets/images/self.webp';
+// import selfie from '../../assets/images/self.webp';
 
 gsap.registerPlugin(TextPlugin);
 
@@ -55,9 +55,11 @@ const Home = () => {
 
     return (
         <Section id="home">
+            {/** 
             <ImageContainer ref={imageRef}>
                 <HomeImage src={selfie} alt="image of Joakim" />
             </ImageContainer>
+            */}
             <ContentContainer>
                 <HomeHeader className="headOne" ref={headOne}>
                     joakim wretlind

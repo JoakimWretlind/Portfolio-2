@@ -133,14 +133,14 @@ export const HomeStatement = styled.h5`
         margin: 12rem 3rem 0;
     }
 `;
-
+/*
 export const ImageContainer = styled.div`
     position: relative;
     height: 75vh;
     width: 100%;
 `;
 
-export const HomeImage = styled.img`    
+export const HomeImage = styled.img`
     width: 100%;
     opacity: .18;
     margin-top: 3vh;
@@ -153,8 +153,8 @@ export const HomeImage = styled.img`
 
     @media screen and (min-width: 359px){
         margin-top: 6vh;
-    }    
-    
+    }
+
     @media screen and (min-width: 359px) and (min-height: 820px){
         margin-top: 0;
     }
@@ -170,9 +170,10 @@ export const HomeImage = styled.img`
     @media screen and (min-width: 767px){
         margin-top: -2vh;
     }
-        
-    @media screen and (min-width: 1000px){     
-        margin-top: 3vh;      
+
+    @media screen and (min-width: 1000px){
+        margin-top: 3vh;
     }
-     
+
 `;
+*/
