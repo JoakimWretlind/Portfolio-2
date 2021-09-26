@@ -24,14 +24,13 @@ const ToTopBtn = () => {
     const toggleVisibility = () => {
         if (window.pageYOffset > 300) {
             setVisible(true);
-
         } else {
             setVisible(false);
         }
     };
 
     return (
-        <>
+        <div data-testid="topBtn">
             {visible && (<>
                 <Scrolls onClick={scrollToTop}>
                     <FiArrowUps>
@@ -40,7 +39,7 @@ const ToTopBtn = () => {
                 </Scrolls>
             </>
             )}
-        </>
+        </div>
     )
 }
 

@@ -11,7 +11,7 @@ export const projectsData = [
         id: 1,
         title: "first portfolio",
         category: "other",
-        path: "https://joakimwretlind.netlify.app/",
+        path: "https://joakimfirstpf.netlify.app/",
         desc: "The title says it all. This was my first portfolio.",
         tech: "HTML, SCSS, JavaScript",
         gitLink: "",
@@ -63,7 +63,7 @@ export const projectsData = [
         category: "big",
         path: "https://algolab.netlify.app/",
         desc: "A bigger app to help people learn about algorithms and datastructures.",
-        tech: "React, Styled-Components",
+        tech: "React, Styled-Components, Context API",
         gitLink: "https://github.com/JoakimWretlind/algolab",
         image: algolab
     },
