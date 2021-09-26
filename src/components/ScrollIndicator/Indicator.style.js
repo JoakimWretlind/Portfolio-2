@@ -42,6 +42,6 @@ export const ProgressCounter = styled.h2`
     top: 0.5rem;
     color: rgb(113,178,182);
     font-size: 1rem;
-    font-family: 'cabinet-l';
+    font-family: 'cabinetL';
     letter-spacing: .1rem;
 `;
