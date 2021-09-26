@@ -23,6 +23,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 const About = () => {
     const imgRefs = useRef(null);
+    const imageHolder = useRef(null);
 
     const onHover = (index) => {
         let targets = index.target;
@@ -36,14 +37,8 @@ const About = () => {
         gsap.to(targets, { y: 0, delay: .75 });
     }
 
-
-    ScrollTrigger.batch(".card", {
-        onEnter: batch => gsap.fromTo(batch, { autoAlpha: 0 }, { autoAlpha: 1, stagger: .2 })
-    })
-
-
     return (
-        <Section id="about">
+        <Section>
             <InnerContainer className="aboutContainer">
                 <Header title="about" />
                 <TextContainer>
@@ -66,11 +61,11 @@ const About = () => {
                         Currently, I’m baking with React, Styled-Components, Typescript, and Jest as the bottom and the glace. Then I sprinkle some animations on top of it with Gsap, Framer motion, and SVG’s.
                     </TextP>
                 </TextContainer>
-                <Tech>Current Tech-Stack</Tech>
+                <Tech >Current Tech-Stack</Tech>
                 <ImageContainer>
                     {aboutData.map((item, index) => (
                         <div key={index}>
-                            <ImageHolder key={index} className="card">
+                            <ImageHolder key={index} ref={imageHolder}>
                                 <Image src={item.image} style={{ position: "absolute", zIndex: -1 }} ref={imgRefs} alt={item.title} />
                                 <Image src={item.image2} onMouseOver={(index) => { onHover(index) }} onMouseLeave={(index) => { noHover(index) }} alt={item.title} />
                                 <ImageText>{item.title}</ImageText>
