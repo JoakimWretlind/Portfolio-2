@@ -5,7 +5,7 @@ import calculator from '../../assets/images/calculator.webp';
 import quiz from '../../assets/images/quiz.webp';
 import algolab from '../../assets/images/algolab.webp';
 import nitroMenu from '../../assets/images/nitroMenu.webp';
-import starWars from '../../assets/images/starwars.webp';
+import starWars from '../../assets/images/starWars.webp';
 
 export const projectsData = [
     {
