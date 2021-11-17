@@ -5,6 +5,7 @@ import calculator from '../../assets/images/calculator.webp';
 import quiz from '../../assets/images/quiz.webp';
 import algolab from '../../assets/images/algolab.webp';
 import nitroMenu from '../../assets/images/nitroMenu.webp';
+import starWars from '../../assets/images/starwars.webp';
 
 export const projectsData = [
     {
@@ -76,5 +77,15 @@ export const projectsData = [
         tech: "React, Styled-Components",
         gitLink: "https://github.com/JoakimWretlind/nitroMenu",
         image: nitroMenu
+    },
+    {
+        id: 9,
+        title: "star Wars",
+        category: "small",
+        path: "https://joakim-swapi.netlify.app/",
+        desc: "An app using the Star Wars API",
+        tech: "React, Styled-Components, Gsap, Framer-Motion",
+        gitLink: "https://github.com/JoakimWretlind/starwars-api-project",
+        image: starWars
     },
 ]

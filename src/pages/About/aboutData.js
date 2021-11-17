@@ -24,6 +24,8 @@ import mongoC from '../../assets/images/mongoDbC.webp';
 import mongoBW from '../../assets/images/mongoDb.webp';
 import gsapC from '../../assets/images/gsapC.webp';
 import gsapBW from '../../assets/images/gsapBW.webp';
+import framerC from '../../assets/images/framerMotionC.webp';
+import framerBW from '../../assets/images/framerMotionBW.webp';
 import gitC from '../../assets/images/gitC.webp';
 import gitBW from '../../assets/images/gitBW.webp';
 
@@ -93,6 +95,11 @@ export const aboutData = [
         title: "Gsap",
         image: gsapC,
         image2: gsapBW
+    },
+    {
+        title: "FramerMotion",
+        image: framerC,
+        image2: framerBW
     },
     {
         title: "Git",
