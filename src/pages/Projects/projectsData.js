@@ -25,7 +25,7 @@ export const projectsData = [
         path: "https://acmefurniture.netlify.app/",
         desc: "A shopping app with some 3D features. You can put in the cart or in the wish-list, search for a category. Stuff saved in localStorage.",
         tech: "HTML, SCSS, JavaScript",
-        gitLink: "",
+        gitLink: "https://github.com/JoakimWretlind/acme-furniture-v1",
         image: furniture
     },
     {
